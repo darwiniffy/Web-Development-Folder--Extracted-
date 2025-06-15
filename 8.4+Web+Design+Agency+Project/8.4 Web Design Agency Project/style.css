@@ -1,0 +1,148 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .creative-text {
+    color: blue;
+    font-family: 'Rubik Bubbles';
+  }
+
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+  .left {
+    display: block;
+  }
+
+  .right {
+    display: block;
+  }
+
+  .tile-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* iPad/Tablet */
+@media (min-width: 480px) and (max-width: 1200px) {
+  body {
+    background-color: aquamarine;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .creative-text {
+    color: blue;
+    font-family: 'Yeseva One';
+    font-style: normal;
+  }
+
+  .logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+  .left {
+    display: block;
+  }
+
+  .right {
+    display: block;
+  }
+
+  .tile-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Laptop size width */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  body {
+    background-color: blueviolet;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  .creative-text {
+    color: rgb(251, 251, 251);
+    font-family: 'Press Start 2P';
+    font-size: 4rem;
+  }
+
+  .left, .right {
+    display: inline-block;
+    width: 48%; /* Adjust width as needed */
+    vertical-align: top; /* Align the divs to the top */
+    margin-right: 5px; /* Add some space between the divs */
+  }
+
+  .tile-image {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+/* Desktop size width */
+@media (min-width: 1600px) {
+  body {
+    background: red;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  .creative-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Ultra';
+  }
+
+  .tile-image {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .left, .right {
+    display: inline-block;
+    width: 45%; /* Adjust width as needed */
+    vertical-align: top; /* Align the divs to the top */
+    margin-right: 5px; /* Add some space between the divs */
+  }
+}
