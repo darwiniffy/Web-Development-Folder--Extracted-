@@ -1,0 +1,42 @@
+*{
+    background: black;
+}
+
+.man-image-div{
+    height: 250px;
+    overflow: hidden;
+    border: 5px solid white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.man-image-div img{
+    width: 100%;
+    height: auto;
+}
+
+/*forgot to use h1 in here*/
+
+h1{
+    font-size: 2rem;
+}
+
+.text-div{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#title{
+    text-transform: uppercase;
+}
+
+#translation{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: large;
+}
+
